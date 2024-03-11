@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+  background:#FFFFFF;
+}
+
+@font-face {
+  font-family: Inter-Bold;
+  src: url("./assets/fontfamily/Inter-Bold.ttf");
+}
+@font-face {
+  font-family:Inter-Medium;
+  src: url("./assets/fontfamily/Inter-Medium.ttf");
+}
+@font-face {
+  font-family:Inter-Regular;
+  src: url("./assets/fontfamily/Inter-Regular.ttf");
+}
+@font-face {
+  font-family:Inter-SemiBold;
+  src: url("./assets/fontfamily/Inter-SemiBold.ttf");
+}
+@font-face {
+  font-family: Gilroy-Bold;
+  src: url("./assets/fontfamily/Gilroy-Bold.ttf");
+}
+@font-face {
+  font-family:Gilroy-Medium;
+  src: url("./assets/fontfamily/Gilroy-Medium.ttf");
+}
+@font-face {
+  font-family:Gilroy-Regular;
+  src: url("./assets/fontfamily/Gilroy-Regular.ttf");
+}
+@font-face {
+  font-family:Gilroy-Light;
+  src: url("./assets/fontfamily/Gilroy-Light.ttf");
+}
+@font-face {
+  font-family:Gilroy-SemiBold;
+  src: url("./assets/fontfamily/Gilroy-SemiBold.ttf");
+}
+.f-f-r{
+  font-family:Inter-Regular;
+}
+.f-f-b{
+  font-family: Inter-Bold;
+}
+.f-f-m{
+  font-family:Inter-Medium;
+}
+.f-f-sm{
+  font-family:Inter-SemiBold;
+}
+.f-f-b-g{
+  font-family: Gilroy-Bold;
+}
+.f-f-m-g{
+  font-family:Gilroy-Medium;
+}
+.f-f-r-g{
+  font-family:Gilroy-Regular;
+}
+.f-f-li-g{
+  font-family:Gilroy-Light;
+}
+.f-f-sm-g{
+  font-family:Gilroy-SemiBold;
+}
